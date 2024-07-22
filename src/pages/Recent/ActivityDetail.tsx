@@ -87,7 +87,7 @@ const ActivityDetail = ({ from, to }: Props) => {
       </div>
       <div className='detail-info'>
         <ArchiveBtn
-          label={`${firstCall.isArchived ? 'Reset ' : 'Archive '} calls`}
+          label={`${firstCall.isArchived ? 'Archived ' : 'Archive '} calls`}
           onClick={archiveCall}
           styles='archive-space'
           isArchived={firstCall.isArchived}
