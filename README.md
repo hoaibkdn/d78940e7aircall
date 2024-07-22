@@ -11,12 +11,12 @@ In the project directory, you can run:
 
 ### `npm install`
 
-    It will install all of dependencies, including
+It will install all of dependencies, including
 
 - react: 18.3.1
-- react-redux: 9.1.2,
-- redux: 5.0.1,
-- redux-thunk": 3.1.0,
+- react-redux: 9.1.2
+- redux: 5.0.1
+- redux-thunk": 3.1.0
 
 **Note** The project requires node 18
 
@@ -31,4 +31,4 @@ Open [the demo](https://aircall-da22c.web.app/) here
 
 #### Aircall Dashboard
 
-![Demo home page](./assets/demo.png)
+<img src="./assets/demo.png" width="200">
