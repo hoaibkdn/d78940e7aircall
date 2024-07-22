@@ -1,0 +1,54 @@
+.bottom-navigation {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	display: flex;
+	justify-content: space-around;
+	border-top: 1px solid #c3c3c3;
+	padding: 10px 0 0 0 ;
+}
+
+.bottom-navigation button {
+	border: none;
+	background-color: white;
+	border-bottom: 3px solid transparent;
+	cursor: pointer;
+}
+
+.bottom-navigation .active {
+	border-bottom-color: green;
+}
+
+.icon-default {
+	color: gray;
+}
+
+.icon-active {
+	color: black;
+}
+
+.bottom-navigation .point {
+	border: 1px solid black;
+	width: 26px;
+	height: 26px;
+	border-radius: 13px;
+	position: relative;
+	display: block;
+	margin-bottom: 5px;
+}
+
+.bottom-navigation .point span {
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	border-radius: 13px;	
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	background-color: green;
+}
+
+.bottom-navigation button svg {
+	width: 26px;
+	height: 26px;
+}

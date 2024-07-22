@@ -1,0 +1,82 @@
+.phone-icon {
+	width: 26px;
+	height: 26px;
+}
+
+.activity {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 5px 0px 5px 15px;
+	border-radius: 15px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	background-color: white;
+	width: 100%;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+
+.activity-info {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;	
+}
+
+.activity-info .activity-detail {
+	padding: 10px 10px 0px 10px;
+	font-size: 16px;
+	white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.activity-detail p {
+	margin: 5px 0;
+	font-size: 14px;	
+	color: gray
+}
+
+.activity-time-number {
+	color: gray;
+	border-left: 1px dashed rgba(0, 0, 0, 0.1);
+	padding-left: 10px; 
+}
+
+.activity-time-number .activity-time-tail {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-right: none;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	padding: 3px; 
+}
+
+.activity-missing-times {
+	width: 15px;
+	height: 15px;
+	background-image: linear-gradient(rgb(250, 139, 139), rgb(223, 42, 42));
+	border-radius: 10px;
+	color: white;
+	font-size: 12px;
+	position: relative;
+	display: block;
+	float: right;
+}
+
+.activity-missing-times > span {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.activity-phone {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.activity-detail .activity-text {
+	white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+	text-align: left;
+}

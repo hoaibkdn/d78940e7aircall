@@ -1,0 +1,25 @@
+.archive-btn {
+	display: flex;
+	background-color: transparent;
+	padding: 20px;
+	border-radius: 15px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	align-items: center;
+	color: gray;
+	width: 100%;
+	cursor: pointer;
+}
+
+.archive-btn b {
+	padding-left: 15px;
+	font-size: 14px;
+}
+
+.archive-space {
+	margin-bottom: 20px;
+}
+
+.archive-vertical-space {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}

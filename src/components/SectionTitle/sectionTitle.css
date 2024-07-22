@@ -1,0 +1,13 @@
+.section-group {
+	width: 100%; 
+   text-align: center; 
+   border-bottom: 1px dashed rgba(0, 0, 0, 0.05); 
+   line-height: 0.1em;
+   margin: 30px 0 20px;
+	 color: gray;
+}
+
+.section-group .section-title {
+	background:#fff; 
+    padding:0 10px; 
+}

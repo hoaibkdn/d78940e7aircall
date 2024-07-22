@@ -1,0 +1,32 @@
+/** @format */
+
+.recent-list {
+  height: 540px;
+	padding: 0 20px 20px;
+  overflow: scroll;
+}
+
+.cls-1 {
+  fill: none;
+}
+
+.detail-avatar {
+  background-color: #c3c3c3;
+  padding: 20px;
+  text-align: center;
+}
+.detail-time {
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: #f7f5f5;
+  padding: 5px 20px;
+}
+
+.detail-info {
+  padding: 20px;
+}
+
+.loading {
+  text-align: center;
+  margin-top: 100px;
+} 
